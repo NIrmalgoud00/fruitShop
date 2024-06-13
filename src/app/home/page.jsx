@@ -15,21 +15,21 @@ const Home = () => {
 
     return (
         <>
+            {/* <NavBar > */}
             <div className="container-fluid fixed-top">
-                <div className="container topbar bg-primary d-none d-lg-block">
-                    <Header />
-                </div>
                 <div class="container px-0">
                     <NavBar />
                 </div>
             </div>
+            {/* </ NavBar> */}
 
-
+            {/* <HeroSection> */}
             <div className="container-fluid py-5 mb-5 hero-header">
                 <div className="container py-5">
                     <HeroSection />
                 </div>
             </div>
+            {/* </HeroSection> */}
 
             <div className="container-fluid featurs py-5">
                 <div className="container py-5">
@@ -82,18 +82,23 @@ const Home = () => {
                 </div>
             </div>
 
+            {/* <Shop> */}
             <div className="container-fluid fruite py-5">
                 <div className="container py-5">
                     <Shop />
                 </div>
             </div>
+            {/* </ Shop> */}
 
+            {/* <Discount> */}
             <div className="container-fluid service py-5">
                 <div className="container py-5">
                     <Discount />
                 </div>
             </div>
+            {/* </ Discount> */}
 
+            {/* <BestsellerProducts> */}
             <div className="container-fluid py-5">
                 <div className="container py-5">
                     <div className="text-center mx-auto mb-5" style={{ maxWidth: "700px" }}>
@@ -103,7 +108,9 @@ const Home = () => {
                     <BestsellerProducts />
                 </div>
             </div>
+            {/* </ BestsellerProducts> */}
 
+            {/* <Features> */}
             <div className="container-fluid py-5">
                 <div className="container">
                     <div className="bg-light p-5 rounded">
@@ -111,18 +118,24 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            {/* </ Features> */}
 
+            {/* <Footer> */}
             <div className="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
                 <div className="container py-5">
                     <Footer />
                 </div>
             </div>
+            {/* </ Footer> */}
 
+            {/* <CopyRight> */}
             <div className="container-fluid copyright bg-dark py-4">
                 <div className="container">
                     <CopyRight />
                 </div>
             </div>
+            {/* </ CopyRight> */}
+
         </>
     );
 }
