@@ -1,0 +1,790 @@
+{
+    "Fruits": [
+        {
+            "id": "1",
+            "title": "Juicy Apple",
+            "price": 15,
+            "description": "Fresh, crisp organic apples, perfect for snacking or adding to salads. Packed with vitamins and fiber.",
+            "category": "organic",
+            "images": [
+                "apple1.jpg",
+                "apple2.jpg"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Ripe Banana",
+            "price": 30,
+            "description": "Sweet and creamy organic bananas, ideal for smoothies, baking, or a healthy snack on the go.",
+            "category": "organic",
+            "images": [
+                "banana1.jpg",
+                "banana2.jpg"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Tangy Orange",
+            "price": 80,
+            "description": "Juicy organic oranges, perfect for juicing or enjoying fresh. Rich in Vitamin C and antioxidants.",
+            "category": "organic",
+            "images": [
+                "orange1.jpg",
+                "orange2.jpg"
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Fresh Strawberry",
+            "price": 30,
+            "description": "Sweet and tangy organic strawberries, great for desserts, smoothies, or eating fresh. Bursting with flavor.",
+            "category": "organic",
+            "images": [
+                "strawberry1.jpg",
+                "strawberry2.jpg"
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Lush Blueberry",
+            "price": 40,
+            "description": "Plump and juicy organic blueberries, perfect for snacking, baking, or adding to your morning cereal.",
+            "category": "organic",
+            "images": [
+                "blueberry1.jpg",
+                "blueberry2.jpg"
+            ]
+        },
+        {
+            "id": "6",
+            "title": "Piquant Grape",
+            "price": 25,
+            "description": "Sweet and seedless organic grapes, ideal for snacking or adding to salads. High in antioxidants.",
+            "category": "organic",
+            "images": [
+                "grape1.jpg",
+                "grape2.jpg"
+            ]
+        },
+        {
+            "id": "7",
+            "title": "Fragrant Mango",
+            "price": 20,
+            "description": "Juicy and sweet organic mangoes, perfect for smoothies, salsas, or enjoying fresh. Rich in vitamins.",
+            "category": "organic",
+            "images": [
+                "mango1.jpg",
+                "mango2.jpg"
+            ]
+        },
+        {
+            "id": "8",
+            "title": "Succulent Pineapple",
+            "price": 35,
+            "description": "Tropical and tangy organic pineapples, great for juicing, grilling, or eating fresh. Loaded with nutrients.",
+            "category": "organic",
+            "images": [
+                "pineapple1.jpg",
+                "pineapple2.jpg"
+            ]
+        },
+        {
+            "id": "9",
+            "title": "Golden Peach",
+            "price": 18,
+            "description": "Sweet and juicy organic peaches, perfect for snacking, baking, or adding to yogurt. Packed with flavor.",
+            "category": "organic",
+            "images": [
+                "peach1.jpg",
+                "peach2.jpg"
+            ]
+        },
+        {
+            "id": "10",
+            "title": "Crisp Pear",
+            "price": 17,
+            "description": "Crisp and sweet organic pears, ideal for snacking or adding to salads. High in fiber and vitamins.",
+            "category": "organic",
+            "images": [
+                "pear1.jpg",
+                "pear2.jpg"
+            ]
+        },
+        {
+            "id": "11",
+            "title": "Juicy Watermelon",
+            "price": 60,
+            "description": "Refreshing and hydrating organic watermelon, perfect for hot summer days. Sweet and juicy flesh.",
+            "category": "organic",
+            "images": [
+                "watermelon1.jpg",
+                "watermelon2.jpg"
+            ]
+        },
+        {
+            "id": "12",
+            "title": "Exotic Kiwi",
+            "price": 12,
+            "description": "Tangy and sweet organic kiwis, great for adding to fruit salads or enjoying on their own. Nutrient-dense.",
+            "category": "organic",
+            "images": [
+                "kiwi1.jpg",
+                "kiwi2.jpg"
+            ]
+        },
+        {
+            "id": "13",
+            "title": "Smooth Avocado",
+            "price": 25,
+            "description": "Creamy and nutritious organic avocados, perfect for guacamole, salads, or spreading on toast.",
+            "category": "organic",
+            "images": [
+                "avocado1.jpg",
+                "avocado2.jpg"
+            ]
+        },
+        {
+            "id": "14",
+            "title": "Sweet Cherry",
+            "price": 50,
+            "description": "Sweet and juicy organic cherries, ideal for snacking, baking, or adding to desserts. High in antioxidants.",
+            "category": "organic",
+            "images": [
+                "cherry1.jpg",
+                "cherry2.jpg"
+            ]
+        },
+        {
+            "id": "15",
+            "title": "Rich Plum",
+            "price": 20,
+            "description": "Sweet and tart organic plums, great for snacking or adding to desserts. Rich in vitamins and minerals.",
+            "category": "organic",
+            "images": [
+                "plum1.jpg",
+                "plum2.jpg"
+            ]
+        },
+        {
+            "id": "16",
+            "title": "Vibrant Raspberry",
+            "price": 45,
+            "description": "Delicate and sweet organic raspberries, perfect for desserts, smoothies, or eating fresh. Rich in antioxidants.",
+            "category": "organic",
+            "images": [
+                "raspberry1.jpg",
+                "raspberry2.jpg"
+            ]
+        },
+        {
+            "id": "17",
+            "title": "Delectable Blackberry",
+            "price": 40,
+            "description": "Juicy and sweet organic blackberries, ideal for snacking, baking, or adding to your breakfast bowl.",
+            "category": "organic",
+            "images": [
+                "blackberry1.jpg",
+                "blackberry2.jpg"
+            ]
+        },
+        {
+            "id": "18",
+            "title": "Organic Pomegranate",
+            "price": 30,
+            "description": "Sweet and tart organic pomegranates, great for juicing or adding to salads. High in antioxidants and vitamins.",
+            "category": "organic",
+            "images": [
+                "pomegranate1.jpg",
+                "pomegranate2.jpg"
+            ]
+        },
+        {
+            "id": "19",
+            "title": "Spicy Papaya",
+            "price": 35,
+            "description": "Sweet and tropical organic papayas, perfect for smoothies or eating fresh. Rich in vitamins and enzymes.",
+            "category": "organic",
+            "images": [
+                "papaya1.jpg",
+                "papaya2.jpg"
+            ]
+        },
+        {
+            "id": "20",
+            "title": "Tart Lemon",
+            "price": 18,
+            "description": "Tangy and zesty organic lemons, great for juicing, cooking, or adding to water. Rich in Vitamin C.",
+            "category": "organic",
+            "images": [
+                "lemon1.jpg",
+                "lemon2.jpg"
+            ]
+        },
+        {
+            "id": "21",
+            "title": "Zesty Lime",
+            "price": 27,
+            "description": "Fresh and tangy organic limes, perfect for cocktails, cooking, or adding a zesty twist to dishes.",
+            "category": "organic",
+            "images": [
+                "lime1.jpg",
+                "lime2.jpg"
+            ]
+        },
+        {
+            "id": "22",
+            "title": "Sweet Grapefruit",
+            "price": 12,
+            "description": "Juicy and tangy organic grapefruits, great for breakfast or juicing. Packed with vitamins and antioxidants.",
+            "category": "organic",
+            "images": [
+                "grapefruit1.jpg",
+                "grapefruit2.jpg"
+            ]
+        },
+        {
+            "id": "23",
+            "title": "Silky Fig",
+            "price": 40,
+            "description": "Sweet and chewy organic figs, perfect for snacking or adding to salads. Rich in fiber and minerals.",
+            "category": "organic",
+            "images": [
+                "fig1.jpg",
+                "fig2.jpg"
+            ]
+        },
+        {
+            "id": "24",
+            "title": "Testy Date",
+            "price": 50,
+            "description": "Sweet and rich organic dates, ideal for snacking or adding to desserts. High in fiber and natural sugars.",
+            "category": "organic",
+            "images": [
+                "date1.jpg",
+                "date2.jpg"
+            ]
+        }
+    ],
+    "Vegetables": [
+        {
+            "id": 1,
+            "title": "Crisp Organic Carrot",
+            "price": 19,
+            "description": "These crisp organic carrots are sweet and crunchy, perfect for snacking, adding to salads, or cooking in various dishes.",
+            "category": "organic",
+            "images": [
+                "carrot1.jpg",
+                "carrot2.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Fresh Organic Spinach",
+            "price": 24,
+            "description": "Our fresh organic spinach is tender and nutritious, ideal for salads, smoothies, or as a cooked side dish.",
+            "category": "organic",
+            "images": [
+                "spinach1.jpg",
+                "spinach2.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Vibrant Organic Bell Pepper",
+            "price": 39,
+            "description": "These vibrant organic bell peppers are sweet and crisp, perfect for adding color and flavor to any meal.",
+            "category": "organic",
+            "images": [
+                "bellpepper1.jpg",
+                "bellpepper2.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Tender Organic Asparagus",
+            "price": 40,
+            "description": "Our tender organic asparagus is perfect for grilling, roasting, or steaming, offering a delicate and fresh taste.",
+            "category": "organic",
+            "images": [
+                "asparagus1.jpg",
+                "asparagus2.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Savory Organic Tomato",
+            "price": 27,
+            "description": "These savory organic tomatoes are juicy and flavorful, ideal for salads, sandwiches, or cooking in sauces.",
+            "category": "organic",
+            "images": [
+                "tomato1.jpg",
+                "tomato2.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Hearty Organic Potato",
+            "price": 14,
+            "description": "Our hearty organic potatoes are versatile and starchy, perfect for mashing, roasting, or making fries.",
+            "category": "organic",
+            "images": [
+                "potato1.jpg",
+                "potato2.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Green Organic Broccoli",
+            "price": 24,
+            "description": "This green organic broccoli is fresh and nutritious, ideal for steaming, stir-frying, or adding to casseroles.",
+            "category": "organic",
+            "images": [
+                "broccoli1.jpg",
+                "broccoli2.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Crunchy Organic Cucumber",
+            "price": 16,
+            "description": "Our crunchy organic cucumbers are cool and refreshing, perfect for salads, sandwiches, or snacking.",
+            "category": "organic",
+            "images": [
+                "cucumber1.jpg",
+                "cucumber2.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Flavorsome Organic Garlic",
+            "price": 99,
+            "description": "These flavorsome organic garlic bulbs are pungent and aromatic, essential for adding depth to your culinary creations.",
+            "category": "organic",
+            "images": [
+                "garlic1.jpg",
+                "garlic2.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Sweet Organic Corn",
+            "price": 15,
+            "description": "Our sweet organic corn is tender and juicy, perfect for grilling, boiling, or adding to salads and soups.",
+            "category": "organic",
+            "images": [
+                "corn1.jpg",
+                "corn2.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Peppery Organic Radish",
+            "price": 18,
+            "description": "These peppery organic radishes are crisp and slightly spicy, ideal for adding a bite to salads and dishes.",
+            "category": "organic",
+            "images": [
+                "radish1.jpg",
+                "radish2.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Leafy Organic Kale",
+            "price": 34,
+            "description": "Our leafy organic kale is nutrient-dense and flavorful, perfect for salads, smoothies, or sautéing.",
+            "category": "organic",
+            "images": [
+                "kale1.jpg",
+                "kale2.jpg"
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Earthy Organic Beet",
+            "price": 22,
+            "description": "These earthy organic beets are sweet and rich, great for roasting, salads, or adding to smoothies.",
+            "category": "organic",
+            "images": [
+                "beet1.jpg",
+                "beet2.jpg"
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Robust Organic Eggplant",
+            "price": 27,
+            "description": "Our robust organic eggplants are firm and flavorful, ideal for grilling, baking, or adding to stews.",
+            "category": "organic",
+            "images": [
+                "eggplant1.jpg",
+                "eggplant2.jpg"
+            ]
+        },
+        {
+            "id": 15,
+            "title": "Tender Organic Zucchini",
+            "price": 21,
+            "description": "These tender organic zucchinis are versatile and mild, perfect for grilling, baking, or adding to pasta dishes.",
+            "category": "organic",
+            "images": [
+                "zucchini1.jpg",
+                "zucchini2.jpg"
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Rich Organic Sweet Potato",
+            "price": 26,
+            "description": "Our rich organic sweet potatoes are sweet and nutritious, great for baking, mashing, or making fries.",
+            "category": "organic",
+            "images": [
+                "sweetpotato1.jpg",
+                "sweetpotato2.jpg"
+            ]
+        },
+        {
+            "id": 17,
+            "title": "Crisp Organic Lettuce",
+            "price": 19,
+            "description": "This crisp organic lettuce is fresh and crunchy, perfect for salads, sandwiches, or wraps.",
+            "category": "organic",
+            "images": [
+                "lettuce1.jpg",
+                "lettuce2.jpg"
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Mild Organic Cauliflower",
+            "price": 32,
+            "description": "Our mild organic cauliflower is versatile and nutritious, ideal for roasting, mashing, or using as a rice substitute.",
+            "category": "organic",
+            "images": [
+                "cauliflower1.jpg",
+                "cauliflower2.jpg"
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Fragrant Organic Basil",
+            "price": 25,
+            "description": "This fragrant organic basil is fresh and aromatic, perfect for adding to sauces, salads, or garnishing dishes.",
+            "category": "organic",
+            "images": [
+                "basil1.jpg",
+                "basil2.jpg"
+            ]
+        },
+        {
+            "id": 20,
+            "title": "Juicy Organic Tomato",
+            "price": 27,
+            "description": "These juicy organic tomatoes are bursting with flavor, perfect for salads, sandwiches, or cooking in various recipes.",
+            "category": "organic",
+            "images": [
+                "tomato1.jpg",
+                "tomato2.jpg"
+            ]
+        },
+        {
+            "id": 21,
+            "title": "Spicy Organic Jalapeno",
+            "price": 23,
+            "description": "Our spicy organic jalapenos are fiery and flavorful, ideal for adding heat to your favorite dishes.",
+            "category": "organic",
+            "images": [
+                "jalapeno1.jpg",
+                "jalapeno2.jpg"
+            ]
+        },
+        {
+            "id": 22,
+            "title": "Nutty Organic Brussels Sprouts",
+            "price": 39,
+            "description": "These nutty organic Brussels sprouts are delicious when roasted, sautéed, or steamed, perfect for a healthy side dish.",
+            "category": "organic",
+            "images": [
+                "brusselssprouts1.jpg",
+                "brusselssprouts2.jpg"
+            ]
+        },
+        {
+            "id": 23,
+            "title": "Flavorful Organic Leek",
+            "price": 24,
+            "description": "Our flavorful organic leeks are mild and sweet, ideal for adding depth to soups, stews, and sautés.",
+            "category": "organic",
+            "images": [
+                "leek1.jpg",
+                "leek2.jpg"
+            ]
+        },
+        {
+            "id": 24,
+            "title": "Fresh Organic Green Beans",
+            "price": 44,
+            "description": "These fresh organic green beans are crisp and tender, perfect for steaming, stir-frying, or adding to casseroles.",
+            "category": "organic",
+            "images": [
+                "greenbeans1.jpg",
+                "greenbeans2.jpg"
+            ]
+        }
+    ],
+    "Bread": [
+        {
+            "id": 1,
+            "title": "Crusty Artisan Baguette",
+            "price": 39,
+            "description": "Crafted with care, our crusty artisan baguette boasts a golden crust and airy interior, perfect for French-style sandwiches or as an accompaniment to soups.",
+            "category": "French Bread",
+            "images": [
+                "baguette1.jpg",
+                "baguette2.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Fluffy Brioche Loaf",
+            "price": 49,
+            "description": "Indulge in the soft, buttery richness of our fluffy brioche loaf, ideal for making decadent French toast or enjoying as a delightful snack on its own.",
+            "category": "Sweet Bread",
+            "images": [
+                "brioche1.jpg",
+                "brioche2.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Whole Grain Seeded Boule",
+            "price": 42,
+            "description": "Our whole grain seeded boule is hearty and wholesome, packed with nutritious seeds and grains, perfect for sandwiches, toasts, or artisanal bruschetta.",
+            "category": "Multigrain Bread",
+            "images": [
+                "boule1.jpg",
+                "boule2.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Sourdough Artisan Batard",
+            "price": 37,
+            "description": "Experience the tangy flavor and chewy texture of our sourdough artisan batard, made with a traditional sourdough starter and baked to perfection.",
+            "category": "Sourdough Bread",
+            "images": [
+                "batard1.jpg",
+                "batard2.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Rustic Country Ciabatta",
+            "price": 29,
+            "description": "Transport your taste buds to the Italian countryside with our rustic country ciabatta, featuring a crispy crust and airy interior, ideal for paninis or bruschetta.",
+            "category": "Italian Bread",
+            "images": [
+                "ciabatta1.jpg",
+                "ciabatta2.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Nutty Whole Wheat Boule",
+            "price": 42,
+            "description": "Our nutty whole wheat boule is rich in fiber and flavor, combining wholesome goodness with a crunchy crust and soft, nutty interior.",
+            "category": "Whole Wheat Bread",
+            "images": [
+                "wholewheat1.jpg",
+                "wholewheat2.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Soft Potato Pullman",
+            "price": 34,
+            "description": "Delight in the softness of our potato pullman bread, made with mashed potatoes for a moist, tender crumb, perfect for sandwiches or toasting.",
+            "category": "Potato Bread",
+            "images": [
+                "pullman1.jpg",
+                "pullman2.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Crunchy Rye Sourdough",
+            "price": 45,
+            "description": "Savor the robust flavor and crunch of our crunchy rye sourdough, featuring a crispy crust and a dense, chewy crumb, ideal for hearty sandwiches.",
+            "category": "Rye Bread",
+            "images": [
+                "rye1.jpg",
+                "rye2.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Herbaceous Focaccia",
+            "price": 36,
+            "description": "Indulge in the aromatic herb flavors of our herbaceous focaccia, perfect for tearing and sharing, dipping in olive oil, or using as a flavorful sandwich base.",
+            "category": "Flatbread",
+            "images": [
+                "focaccia1.jpg",
+                "focaccia2.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Sweet Cinnamon Swirl",
+            "price": 4.79,
+            "description": "Treat yourself to the sweet aroma and swirls of cinnamon in our sweet cinnamon swirl bread, ideal for morning toasts or indulgent cinnamon toast treats.",
+            "category": "Sweet Bread",
+            "images": [
+                "cinnamonswirl1.jpg",
+                "cinnamonswirl2.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Crusty Sourdough Bagel",
+            "price": 22,
+            "description": "Enjoy the chewy goodness and tangy notes of our crusty sourdough bagel, perfect for toasting and topping with your favorite spreads or fillings.",
+            "category": "Sourdough Bread",
+            "images": [
+                "bagel1.jpg",
+                "bagel2.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Light Rye Sandwich",
+            "price": 32,
+            "description": "Experience the lightness and subtle rye flavor of our light rye sandwich bread, perfect for making deli-style sandwiches or enjoying with soups.",
+            "category": "Rye Bread",
+            "images": [
+                "sandwichrye1.jpg",
+                "sandwichrye2.jpg"
+            ]
+        }
+    ],
+    "Meat": [
+        {
+            "id": 1,
+            "title": "Juicy Ribeye Steak",
+            "price": "209",
+            "description": "Indulge in the succulence of our perfectly marbled Ribeye Steak, grilled to perfection for a melt-in-your-mouth experience. Ideal for steak enthusiasts.",
+            "category": "Beef",
+            "images": [
+                "ribeye_steak_image.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Tender Filet Mignon",
+            "price": "299",
+            "description": "Savor the exquisite tenderness of our Filet Mignon, hand-cut and seared to perfection. A delicacy for those seeking premium beef cuts.",
+            "category": "Beef",
+            "images": [
+                "filet_mignon_image.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Succulent New York Strip",
+            "price": "250",
+            "description": "Experience the bold flavor of our New York Strip steak, aged to perfection for maximum tenderness and flavor. A steak lover's delight.",
+            "category": "Beef",
+            "images": [
+                "new_york_strip_image.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Tasty T-Bone Steak",
+            "price": "255",
+            "description": "Sink your teeth into our delectable T-Bone Steak, featuring the rich flavors of both the strip and tenderloin, grilled to juicy perfection.",
+            "category": "Beef",
+            "images": [
+                "t_bone_steak_image.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Delicious Prime Rib",
+            "price": "189",
+            "description": "Indulge in the richness of our Prime Rib, slow-roasted to perfection to enhance its natural flavors and tenderness. A classic favorite.",
+            "category": "Beef",
+            "images": [
+                "prime_rib_image.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Flavorful Porterhouse",
+            "price": "279",
+            "description": "Discover the perfect balance of tenderness and flavor in our Porterhouse Steak, a combination of New York Strip and Filet Mignon, expertly prepared.",
+            "category": "Beef",
+            "images": [
+                "porterhouse_steak_image.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Savory Chuck Roast",
+            "price": "155",
+            "description": "Enjoy the hearty flavor of our Chuck Roast, slow-cooked to perfection for a tender, melt-in-your-mouth dining experience. Perfect for roasts.",
+            "category": "Beef",
+            "images": [
+                "chuck_roast_image.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Mouthwatering Brisket",
+            "price": "179",
+            "description": "Treat yourself to the mouthwatering goodness of our Brisket, smoked low and slow to preserve its juiciness and flavor. Perfect for BBQ lovers.",
+            "category": "Beef",
+            "images": [
+                "brisket_image.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Robust Sirloin Steak",
+            "price": "190",
+            "description": "Experience the robust flavor of our Sirloin Steak, grilled to perfection to lock in its natural juices and tenderness. Ideal for grilling enthusiasts.",
+            "category": "Beef",
+            "images": [
+                "sirloin_steak_image.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Tantalizing Skirt Steak",
+            "price": "149",
+            "description": "Satisfy your cravings with our Tantalizing Skirt Steak, known for its bold flavor and ideal texture when grilled or pan-seared. A must-try for steak lovers.",
+            "category": "Beef",
+            "images": [
+                "skirt_steak_image.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Exotic Kangaroo Meat",
+            "price": "359",
+            "description": "Explore the exotic flavors of Kangaroo Meat, lean and flavorful, ideal for those seeking a unique culinary experience. High in protein and low in fat.",
+            "category": "Exotic Meats",
+            "images": [
+                "kangaroo_meat_image.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Tender Venison",
+            "price": "325",
+            "description": "Embrace the tender goodness of Venison, a lean and healthy red meat alternative with a rich, distinct flavor. Ideal for gourmet dishes.",
+            "category": "Exotic Meats",
+            "images": [
+                "venison_image.jpg"
+            ]
+        }
+    ]
+}

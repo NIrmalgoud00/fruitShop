@@ -1,0 +1,27 @@
+/* .trusted-main-div {
+    width: 100%;
+} */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Merge first row */
+.grid-item:first-child {
+    grid-column: span 5;
+}
